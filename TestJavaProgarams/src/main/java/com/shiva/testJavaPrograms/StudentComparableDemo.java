@@ -5,7 +5,9 @@ import java.util.Collections;
 import java.util.List;
 
 public class StudentComparableDemo {
+	
 	  public static void main(String[] args) {
+		  
 	    Student james = new Student("James", 3, 100);
 	    Student andy = new Student("Andy", 1, 99);
 	    Student peter = new Student("Peter", 2, 95);

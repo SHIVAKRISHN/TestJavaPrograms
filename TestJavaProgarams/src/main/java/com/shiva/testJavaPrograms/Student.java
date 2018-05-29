@@ -34,7 +34,9 @@ class Student implements Comparable<Student> {
 
 	public int compareTo(Student otherStudent) {
 		
-		//return this.rollNumber - otherStudent.rollNumber; /* To compare the integers in acceding order */
-	    return this.name.compareTo(otherStudent.name);      /* To compare the Strings  in acceding order */
+		//return this.rollNumber - otherStudent.rollNumber;   /* To compare the integers in acceding order */
+		 return otherStudent.rollNumber-this.rollNumber;      /* To compare the integers in descending order */
+	    //return this.name.compareTo(otherStudent.name);      /* To compare the Strings  in acceding order */
+		//return otherStudent.name.compareTo(this.name);      /* To compare the Strings  in descending order */
 	}
 	}
